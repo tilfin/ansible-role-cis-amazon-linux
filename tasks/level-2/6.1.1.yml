@@ -10,7 +10,7 @@
     - level-2
     - section-6
     - "6.1.1"
-    - scored
+    - not-scored
 
 - name: 6.1.1 - Audit system file permissions
   fail:
@@ -22,7 +22,7 @@
     - level-2
     - section-6
     - "6.1.1"
-    - scored
+    - not-scored
 
 - name: 6.1.1 - Audit system file permissions
   debug:
@@ -34,5 +34,5 @@
     - level-2
     - section-6
     - "6.1.1"
-    - scored
+    - not-scored
 
