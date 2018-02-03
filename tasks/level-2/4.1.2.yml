@@ -9,7 +9,7 @@
   tags:
     - level-2
     - section-4
-    - "4.2.1.1"
+    - "4.1.2"
     - scored
 
 - name: 4.1.2 Ensure auditd service is enabled (Scored)
@@ -23,5 +23,5 @@
   tags:
     - level-2
     - section-4
-    - "4.2.1.1"
+    - "4.1.2"
     - scored
