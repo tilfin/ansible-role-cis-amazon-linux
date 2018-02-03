@@ -1,0 +1,26 @@
+# Remove `-a never,task` line in audit.rules
+
+- name: Remove `-a never,task` line in audit.rules
+  lineinfile:
+    dest: "{{ cis_audit_rules_filename }}"
+    backrefs: yes
+    regexp: '^\-a never,task$'
+    line: "#-a never,task"
+  tags:
+    - "4.1.4"
+    - "4.1.5"
+    - "4.1.6"
+    - "4.1.7"
+    - "4.1.8"
+    - "4.1.9"
+    - "4.1.10"
+    - "4.1.11"
+    - "4.1.12"
+    - "4.1.13"
+    - "4.1.14"
+    - "4.1.15"
+    - "4.1.16"
+    - "4.1.17"
+    - "4.1.18"
+    - level-2
+    - section-4
